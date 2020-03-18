@@ -1,0 +1,6 @@
+framework module Pods_Podfile_Mulitple_TargetsTests {
+  umbrella header "Pods-Podfile-Mulitple-TargetsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
