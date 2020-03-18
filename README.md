@@ -2,6 +2,10 @@
 
 Adding multiple targets in a Podfile.
 
+#### Objective: 
+
+In this app we added an ```import Firebase``` statement in the ```DBUser``` model. This ```import Firebase``` statement caused our test class to fail compilation. In order to resolve this compiler error we updated the ```Podfile``` to include two targets, the project target and the test target. 
+
 # Podfile 
 
 ```ruby 
